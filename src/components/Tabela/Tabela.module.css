@@ -1,0 +1,41 @@
+.tableCalc {
+    max-width: 600px;
+    width: 100%;
+    margin-top: 24px;
+}
+
+.tableCalc tbody tr td {
+    padding: 8px 20px;
+    border-bottom: 1px solid #dee2e7;
+}
+
+.headerTable tr th{
+    background-color: #1f5eaf;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: normal;
+}
+
+.textCenter {
+    text-align: center;
+    color: #707070;
+}
+
+.tableCalcTitle {
+    color: #1f5eaf;
+}
+
+.tableCalcText {
+    color: #707070;
+}
+
+.resultadoCorrespondente {
+    background-color: rgb(193, 227, 185);
+}
+
+@media screen and (max-width: 360px) {
+    .tableCalc {
+        width: 200px;
+    }
+}

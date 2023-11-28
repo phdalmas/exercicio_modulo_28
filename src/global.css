@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formImc {
+    display: flex;
+    gap: 12px;
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+input {
+    padding: 8px;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+.exampleLabel {
+    font-size: 12px;
+}
+
+.btnCalc {
+    cursor: pointer;
+    padding: 15px;
+    margin-top: 12px;
+    font-size: 14px;
+
+    
+    background-color: #1f5eaf;
+    color: #fff;
+
+    border: none;
+    border-radius: 60px;
+
+    transition: all 0.2s ease;
+}
+
+.btnCalc:hover {
+    background-color: #183a66;
+}
